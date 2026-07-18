@@ -1,0 +1,26 @@
+[
+    {
+        "id": "001",
+        "name": "saman",
+        "adress": "colombo",
+        "salary": 50000 
+    },
+    {
+        "id": "002",
+        "name": "kamal",
+        "adress": "galle",
+        "salary": 60000 
+    },
+    {
+        "id": "003",
+        "name": "wimal",
+        "adress": "kandy",
+        "salary": 70000 
+    },
+    {
+        "id": "004",
+        "name": "ranil",
+        "adress": "kurunegala",
+        "salary": 80000 
+    }
+]

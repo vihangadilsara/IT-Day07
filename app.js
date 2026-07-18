@@ -151,16 +151,17 @@ productsList.forEach(product => console.log(product));
  console.log(newSalaryArry);
 
  const studentList = [
-    {id:"001",name:"saman"}
+    {id:"001",name:"saman"}, 
     {id:"002",name:"kamal"},
     {id:"003",name:"wimal"},
     {id:"004",name:"ranil"}
 ];
 
-let student = studentList.find()student=>student.id==="003";
+let student = studentList.find(student=>student.id==="003");
 console.log(student);
 
-
+fetch("customer.json").then(res=>res.json()).then(data=>console.log(data));
+    console.log(data);
 
 
 
