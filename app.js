@@ -134,6 +134,11 @@ let sample = txtValue => txtValue;
 
 console.log(sample("Hi saman"));
 
+// for(product of productsList){
+//     console.log(product);
+// }
+
+productsList.forEach(product => console.log(product));
 
 
 
