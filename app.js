@@ -144,6 +144,11 @@ productsList.forEach(product => console.log(product));
  let sortAr = latterList.toSorted();
  console.log(sortAr);
 
+ const employeSalary = [75000,25000,45000,55000];
+
+ let newSalaryArry = employeSalary.map(salary=>salary*2);
+
+ console.log(newSalaryArry);
 
 
 
