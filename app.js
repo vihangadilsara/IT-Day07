@@ -140,8 +140,9 @@ console.log(sample("Hi saman"));
 
 productsList.forEach(product => console.log(product));
 
-
-
+ const latterList =[ "B","A","D","C"];
+ let sortAr = latterList.toSorted();
+ console.log(sortAr);
 
 
 
